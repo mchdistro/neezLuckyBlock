@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "LuckyBlock-1.20.1",
+      "id": "LuckyBlock_v1-1.20.1",
       "name": "LuckyBlock",
       "description": "Minecraft 1.20.1 (Forge v47.4.0)",
       "icon": "https://github.com/mchdistro/neezLuckyBlock/raw/main/server-icon.png",
@@ -438,7 +438,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1320675,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
           },
           "required": {
@@ -451,7 +451,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1379220,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/jei-1.20.1-forge-15.20.0.106.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/jei-1.20.1-forge-15.20.0.106.jar",
             "MD5": "245af433575aef3a47ae73492196018f"
           },
           "required": {
@@ -464,7 +464,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7160406,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/journeymap-1.20.1-5.10.3-forge.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/journeymap-1.20.1-5.10.3-forge.jar",
             "MD5": "be46ebd4654a75a03ecbc5497d2ddce9"
           },
           "required": {
@@ -477,7 +477,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2997869,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/koreanpatch-forge-1.8.2+mc1.20.1.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/koreanpatch-forge-1.8.2+mc1.20.1.jar",
             "MD5": "0515dcaababd0ea0b27762e72a91343c"
           },
           "required": {
@@ -490,7 +490,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1991117,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/lucky-block-forge-1.20.1-13.1.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/lucky-block-forge-1.20.1-13.1.jar",
             "MD5": "3ae8fa372d2125855ba7e98dcb6167b6"
           },
           "required": {
@@ -503,7 +503,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2851119,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
           },
           "required": {
@@ -516,7 +516,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7750347,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/forgemods/optionalon/voicechat-forge-1.20.1-2.5.30.jar",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/forgemods/optionalon/voicechat-forge-1.20.1-2.5.30.jar",
             "MD5": "cd564c6197dcd1d19af73f23f81c388c"
           },
           "required": {
@@ -528,9 +528,19 @@
           "name": "oculus.properties",
           "type": "File",
           "artifact": {
-            "size": 283,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/files/config/oculus.properties",
+            "size": 285,
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/config/oculus.properties",
             "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4291,
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
           }
         },
         {
@@ -539,8 +549,19 @@
           "type": "File",
           "artifact": {
             "size": 2272,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/files/options.txt",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/servers.dat",
+            "MD5": "d4e79857980b8f27bee80857033b3061",
+            "path": "servers.dat"
           }
         },
         {
@@ -549,7 +570,7 @@
           "type": "File",
           "artifact": {
             "size": 456332,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
             "MD5": "576ef06da170458879f3a03e685d487a",
             "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
           }
@@ -560,7 +581,7 @@
           "type": "File",
           "artifact": {
             "size": 142509,
-            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Medium.zip",
+            "url": "https://github.com/mchdistro/neezLuckyBlock/raw/main/servers/LuckyBlock_v1-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Medium.zip",
             "MD5": "73ac2677df6b146ff789c06c73ca67d1",
             "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Medium.zip"
           }
